@@ -188,7 +188,7 @@ class StateGame extends StateHandler<Game> {
     }
 }
 
-AssetManager.Load({ url: "/Genshin/BGM.mp3" });
-AssetManager.Load({ url: "/Genshin/Genshin Impact [Duang].mp3" });
-AssetManager.Load({ url: "/Genshin/Genshin Impact [DoorThrough].mp3" });
-AssetManager.Load({ url: "/Genshin/Genshin Impact [DoorComeout].mp3" });
+AssetManager.Load({ url: "./Genshin/BGM.mp3" });
+AssetManager.Load({ url: "./Genshin/Genshin Impact [Duang].mp3" });
+AssetManager.Load({ url: "./Genshin/Genshin Impact [DoorThrough].mp3" });
+AssetManager.Load({ url: "./Genshin/Genshin Impact [DoorComeout].mp3" });

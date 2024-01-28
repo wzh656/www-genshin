@@ -34,7 +34,7 @@ export function Preloader() {
           </div>
           <div className="ball" style={{ left: "-2vmin" }}></div>
           <div className="ball" style={{ left: "40.8vmin", top: "-2.4vmin" }}></div>
-          <div style={{ paddingTop: "1vmin", fontSize: "1.4vmin" }}>为了您更好的体验，请在电脑端打开</div>
+          <div style={{ paddingTop: "1vmin", fontSize: "1.4vmin" }}></div>
         </div>
       </div>
     </div>

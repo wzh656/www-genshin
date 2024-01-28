@@ -1,5 +1,5 @@
 import { ACES_Inv } from "../../shader/chunk/ACES.chunk";
-import { Color, Mesh, MeshPhysicalMaterial, PlaneGeometry, Plugin, ShaderMaterial, SphereGeometry, Vector3, property } from "../libs/xviewer";
+import { Color, Mesh, MeshPhysicalMaterial, PlaneGeometry, Plugin, ShaderMaterial, SphereGeometry, Vector3, property } from "../../libs/xviewer";
 
 const sphereMat = new ShaderMaterial({
     vertexShader: `
@@ -49,8 +49,8 @@ export class ShaderTest extends Plugin {
     }
 
     update(dt: number): void {
-        this.mesh.position.copy(cameraCenter.clone().add(new Vector3(0, -10, -100)))
-        this.plane.position.copy(cameraCenter.clone().add(new Vector3(30, -27, -100)))
+        //this.mesh.position.copy(cameraCenter.clone().add(new Vector3(0, -10, -100)))
+        //this.plane.position.copy(cameraCenter.clone().add(new Vector3(30, -27, -100)))
     }
 
     @property()
